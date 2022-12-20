@@ -7,3 +7,6 @@ addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/n/bin/
 addToPathFront $HOME/.local/go/bin
 addToPathFront $HOME/go/bin
+
+export N_PREFIX="$HOME/.local/n"
+export DOTFILES=$HOME/.dotfiles
