@@ -39,4 +39,4 @@ vnoremap J :m '>+1<cr>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 nnoremap <silent> <C-f> :silent !tmux neww tmux-sessionizer<CR>
-
+nnoremap <silent> <leader>x <cmd>!chmod +x %<CR>
