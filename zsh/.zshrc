@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 source ~/.zsh_profile
+[ -f ~/.cargo/env ] && source $HOME/.cargo/env
