@@ -11,6 +11,8 @@ export DENO_INSTALL="$HOME/.deno"
 export N_PREFIX="$HOME/.local/n"
 export DOTFILES=$HOME/.dotfiles
 
+export PATH="$N_PREFIX/bin:$PATH"
+
 export PATH=$PATH:$HOME/.zig
 export PATH=$PATH:$HOME/.local/.npm-global/bin
 export PATH=$PATH:$HOME/.local/scripts
